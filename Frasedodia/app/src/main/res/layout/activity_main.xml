@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="frasedodia.guidev.com.frasedodia.MainActivity">
+
+    <TextView
+        android:id="@+id/AutorId"
+        android:layout_width="296dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/amarante"
+        android:text="@string/texto_autor"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/texto_autor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoNovaFraseId" />
+
+    <Button
+        android:id="@+id/botaoNovaFraseId"
+        android:layout_width="362dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/Texto_botão"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textoNovaFraseId"
+        android:layout_width="296dp"
+        android:layout_height="331dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/amarante"
+        android:text="@string/texto_frase_dia"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/texto_frase_dia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botaoNovaFraseId" />
+</android.support.constraint.ConstraintLayout>

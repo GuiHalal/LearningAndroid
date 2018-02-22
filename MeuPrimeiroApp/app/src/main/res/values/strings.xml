@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MeuPrimeiroApp</string>
+    <string name="login">Login:</string>
+    <string name="senha">Senha:</string>
+	<string name="button">Logar:</string>
+	<string name="chave">Mantenha-me conectado:</string>
+    <string name="botaoLogar">Logar:</string>
+</resources>
