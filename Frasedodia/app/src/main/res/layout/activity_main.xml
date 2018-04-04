@@ -34,8 +34,9 @@
         android:layout_marginTop="28dp"
         android:background="@color/colorPrimary"
         android:text="@string/Texto_botão"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@android:color/black"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -46,7 +47,7 @@
         android:layout_height="331dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="24dp"
         android:fontFamily="@font/amarante"
         android:text="@string/texto_frase_dia"
         android:textAlignment="textStart"
@@ -55,4 +56,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/botaoNovaFraseId" />
+
 </android.support.constraint.ConstraintLayout>
